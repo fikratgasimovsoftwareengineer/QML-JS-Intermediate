@@ -37,6 +37,7 @@ void Movie::setTitle(QString title)
     }
     m_title = title;
     emit titleChanged(m_title);
+
 }
 
 QString Movie::getTitle() const

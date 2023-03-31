@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-b09ee58493efe728360a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "restAPIQML",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "restAPIQML::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-restAPIQML-Debug-a4d9a111549faf248d3b.json",
+					"name" : "restAPIQML",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "restAPIQML_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-restAPIQML_autogen-Debug-49cf4206fb860e92a3b9.json",
+					"name" : "restAPIQML_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "restAPIQML_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-restAPIQML_autogen_timestamp_deps-Debug-627b79230f5216d0f5ed.json",
+					"name" : "restAPIQML_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/fikrat/QML-JS-Intermediate/QML/QML/build-restAPIQML-Desktop_Qt_5_15_2_GCC_64bit-Debug",
+		"source" : "/home/fikrat/QML-JS-Intermediate/QML/QML/restAPIQML"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

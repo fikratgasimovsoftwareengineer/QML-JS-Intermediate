@@ -1,0 +1,12 @@
+# ninja log v5
+1	138	1680170549294586960	restAPIQML_autogen/timestamp	3a04677bdda1576f
+1	138	1680170549294586960	restAPIQML_autogen/mocs_compilation.cpp	3a04677bdda1576f
+1	138	1680170549294586960	/home/fikrat/QML-JS-Intermediate/QML/QML/build-restAPIQML-Desktop_Qt_5_15_2_GCC_64bit-Debug/restAPIQML_autogen/timestamp	3a04677bdda1576f
+1	138	1680170549294586960	/home/fikrat/QML-JS-Intermediate/QML/QML/build-restAPIQML-Desktop_Qt_5_15_2_GCC_64bit-Debug/restAPIQML_autogen/mocs_compilation.cpp	3a04677bdda1576f
+138	142	1680170549302586998	restAPIQML_autogen/EWIEGA46WW/qrc_qml.cpp	6495b9f26e680b47
+138	142	1680170549302586998	/home/fikrat/QML-JS-Intermediate/QML/QML/build-restAPIQML-Desktop_Qt_5_15_2_GCC_64bit-Debug/restAPIQML_autogen/EWIEGA46WW/qrc_qml.cpp	6495b9f26e680b47
+142	163	1680170549322587091	CMakeFiles/restAPIQML.dir/restAPIQML_autogen/EWIEGA46WW/qrc_qml.cpp.o	c9e2d91403dfc78
+142	1029	1680170550186591144	CMakeFiles/restAPIQML.dir/restapiwrapper.cpp.o	3b2719e24291272b
+142	1097	1680170550254591461	CMakeFiles/restAPIQML.dir/restAPIQML_autogen/mocs_compilation.cpp.o	7c3d71d6250b94ab
+142	1450	1680170550606593107	CMakeFiles/restAPIQML.dir/main.cpp.o	3e7e7297ce88178f
+1450	1779	1680170550934594640	restAPIQML	7f046d25e3bd30c
