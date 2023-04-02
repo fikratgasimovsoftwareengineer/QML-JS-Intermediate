@@ -11,7 +11,7 @@
 
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
-#include <QtWidgets/QTabWidget>
+#include <QtWidgets/QPushButton>
 #include <QtWidgets/QWidget>
 
 QT_BEGIN_NAMESPACE
@@ -19,30 +19,18 @@ QT_BEGIN_NAMESPACE
 class Ui_showMap
 {
 public:
-    QTabWidget *tabWidget;
-    QWidget *tab_1;
-    QWidget *tab_2;
+    QPushButton *pushButton;
 
     void setupUi(QWidget *showMap)
     {
         if (showMap->objectName().isEmpty())
             showMap->setObjectName(QString::fromUtf8("showMap"));
         showMap->resize(981, 658);
-        tabWidget = new QTabWidget(showMap);
-        tabWidget->setObjectName(QString::fromUtf8("tabWidget"));
-        tabWidget->setGeometry(QRect(220, 50, 481, 451));
-        tabWidget->setStyleSheet(QString::fromUtf8("background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));"));
-        tab_1 = new QWidget();
-        tab_1->setObjectName(QString::fromUtf8("tab_1"));
-        tabWidget->addTab(tab_1, QString());
-        tab_2 = new QWidget();
-        tab_2->setObjectName(QString::fromUtf8("tab_2"));
-        tabWidget->addTab(tab_2, QString());
+        pushButton = new QPushButton(showMap);
+        pushButton->setObjectName(QString::fromUtf8("pushButton"));
+        pushButton->setGeometry(QRect(60, 240, 89, 25));
 
         retranslateUi(showMap);
-
-        tabWidget->setCurrentIndex(0);
-
 
         QMetaObject::connectSlotsByName(showMap);
     } // setupUi
@@ -50,8 +38,7 @@ public:
     void retranslateUi(QWidget *showMap)
     {
         showMap->setWindowTitle(QCoreApplication::translate("showMap", "Form", nullptr));
-        tabWidget->setTabText(tabWidget->indexOf(tab_1), QCoreApplication::translate("showMap", "Tab 1", nullptr));
-        tabWidget->setTabText(tabWidget->indexOf(tab_2), QCoreApplication::translate("showMap", "Tab 2", nullptr));
+        pushButton->setText(QCoreApplication::translate("showMap", "clikcMe", nullptr));
     } // retranslateUi
 
 };

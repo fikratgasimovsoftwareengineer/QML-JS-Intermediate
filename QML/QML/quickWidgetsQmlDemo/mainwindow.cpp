@@ -12,6 +12,14 @@ MainWindow::MainWindow(QWidget *parent)
     ui->quickWidget->setResizeMode(QQuickWidget::SizeRootObjectToView);
     ui->quickWidget->show();
 
+    m_positionSource = QGeoPositionInfoSource::createDefaultSource(this);
+
+        if (m_positionSource) {
+            connect(m_positionSource, &QGeoPositionInfoSource::positionUpdated,
+                    this, &MainWindow::onPositionChanged);
+            m_positionSource->startUpdates();
+        }
+
 
 
 }
@@ -19,5 +27,10 @@ MainWindow::MainWindow(QWidget *parent)
 MainWindow::~MainWindow()
 {
     delete ui;
+}
+
+void MainWindow::onPositionChanged(const QGeoPositionInfo &info)
+{
+
 }
 
