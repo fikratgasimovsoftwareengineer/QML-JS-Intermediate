@@ -1,3 +1,3 @@
 # TESLA UI DESKTOP INTERFACE
 
-![TESLA DESKTOP](tesla.png)
+![TESLA DESKTOP](tesla.jpg)
