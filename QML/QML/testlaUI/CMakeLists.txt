@@ -17,6 +17,10 @@ set(PROJECT_SOURCES
         qml.qrc
         systems.cpp
         systems.h
+        temphandler.cpp
+        temphandler.h
+        volumecontroller.cpp
+        volumecontroller.h
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)

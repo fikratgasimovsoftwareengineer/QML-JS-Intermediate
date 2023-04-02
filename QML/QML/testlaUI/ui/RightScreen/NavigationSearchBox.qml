@@ -21,6 +21,7 @@ Rectangle {
     Text {
 
         id: navigationBarPlaceText
+        visible: textInputBar.text == ""
         color: "#000000"
         text: "Navigate"
         anchors {
@@ -29,5 +30,19 @@ Rectangle {
             left: searchIcon.right
             leftMargin: 20
         }
+    }
+
+    TextInput {
+        id: textInputBar
+        clip: true
+        anchors {
+            top: parent.top
+            bottom: parent.bottom
+            right: parent.right
+            left: searchIcon.right
+            leftMargin: 20
+        }
+        verticalAlignment: Text.AlignVCenter
+        font.pixelSize: 16
     }
 }

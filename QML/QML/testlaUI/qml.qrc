@@ -14,5 +14,15 @@
         <file>ui/assets/user.png</file>
         <file>ui/RightScreen/NavigationSearchBox.qml</file>
         <file>ui/assets/search.png</file>
+        <file>ui/BottomBar/TempHandler.qml</file>
+        <file>ui/assets/vol.png</file>
+        <file>ui/assets/vol_2.png</file>
+        <file>ui/assets/mute.png</file>
+        <file>ui/BottomBar/VolumQmlController.qml</file>
+        <file>ui/assets/volume-up.png</file>
+        <file>ui/assets/low-volume.png</file>
+        <file>ui/assets/volume-up-interface-symbol.png</file>
+        <file>ui/assets/little.png</file>
+        <file>ui/assets/low-volume (1).png</file>
     </qresource>
 </RCC>

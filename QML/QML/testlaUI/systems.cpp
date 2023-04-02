@@ -4,7 +4,7 @@ systems::systems(QObject *parent)
     : QObject{parent},
       m_carLocked(true), //car set lock
       m_outDoorTemp(64),
-      m_userName("Andrea")
+      m_userName("Fikrat")
 {
     // initialize timer
     m_currentTimeTimer = new QTimer(this);
@@ -70,7 +70,7 @@ void systems::currentTimeTimeout()
 {
     QDateTime timeData;
     // initialize current time here
-    QString currentTime = timeData.currentDateTime().toString("hh:mm ap");
+    QString currentTime = timeData.currentDateTime().toString("hh:m ap");
     //qDebug() << currentTime;
     // call the slots here
     setCurrentTime(currentTime);
