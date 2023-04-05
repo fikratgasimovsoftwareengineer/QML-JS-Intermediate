@@ -20,7 +20,7 @@ Item {
         }
 
         width: height / 2
-        color: "black"
+        color: "#180d0d"
 
         Text {
 
@@ -62,7 +62,7 @@ Item {
         }
 
         width: height / 2
-        color: "black"
+        color: "#180d0d"
 
         Text {
 

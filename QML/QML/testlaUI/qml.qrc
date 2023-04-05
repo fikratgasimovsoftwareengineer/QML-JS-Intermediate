@@ -24,5 +24,17 @@
         <file>ui/assets/volume-up-interface-symbol.png</file>
         <file>ui/assets/little.png</file>
         <file>ui/assets/low-volume (1).png</file>
+        <file>ui/BottomBar/DialerUser.qml</file>
+        <file>ui/assets/phone-call.png</file>
+        <file>ui/assets/phone-call_grande.png</file>
+        <file>ui/assets/spotify.png</file>
+        <file>ui/assets/camera.jpeg</file>
+        <file>ui/assets/camera-lens.png</file>
+        <file>ui/assets/growth.png</file>
+        <file>ui/assets/bluetooth.png</file>
+        <file>ui/assets/bluetooth_desk.png</file>
+        <file>ui/RightScreen/CompassHandle.qml</file>
+        <file>ui/assets/arrow.svg</file>
+        <file>ui/assets/compass.svg</file>
     </qresource>
 </RCC>

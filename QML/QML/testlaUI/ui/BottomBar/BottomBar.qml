@@ -57,4 +57,14 @@ Rectangle {
             bottom: parent.bottom
         }
     }
+
+    DialerUser {
+        id: userControlId
+        anchors {
+            left: passengerHandleControlLeft.right
+            leftMargin: 150
+            top: parent.top
+            bottom: parent.bottom
+        }
+    }
 }

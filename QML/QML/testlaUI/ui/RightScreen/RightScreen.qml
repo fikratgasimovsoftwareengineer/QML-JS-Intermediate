@@ -4,6 +4,7 @@ import QtPositioning 5.6
 
 Rectangle {
     id: rightScreen
+
     anchors {
 
         top: parent.top
@@ -21,6 +22,9 @@ Rectangle {
         plugin: mapPlugin
         center: QtPositioning.coordinate(37.468319, -122.143936) // Oslo
         zoomLevel: 14
+        // add with respect to compass
+        // set the rotation of the arrow to the negative of the map rotation
+        onRotationChanged: rightCompassId.arrowRotation = -rotation
     }
 
     Image {
@@ -117,6 +121,16 @@ Rectangle {
         }
     }
 
+    CompassHandle {
+        id: rightCompassId
+        anchors {
+            left: userNameAccount.right
+            right: parent.right
+            top: parent.top
+            bottom: userNameAccount.bottom
+            leftMargin: 450
+        }
+    }
     // rectangle width
     width: parent.width * 2 / 3
 }
