@@ -2,7 +2,7 @@
 
 batteryCheck::batteryCheck(QObject *parent)
     : QObject{parent},
-      m_batterLevel(45)
+      m_batterLevel(62)
 {
 
 }

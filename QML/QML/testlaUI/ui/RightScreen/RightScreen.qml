@@ -14,7 +14,7 @@ Rectangle {
 
     Plugin {
         id: mapPlugin
-        name: "mapboxgl"
+        name: "osm" // open street map
     }
 
     Map {
