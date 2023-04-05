@@ -105,6 +105,12 @@
 	"HEADERS" : 
 	[
 		[
+			"/home/fikrat/QML-JS-Intermediate/QML/QML/testlaUI/batterycheck.h",
+			"MU",
+			"EWIEGA46WW/moc_batterycheck.cpp",
+			null
+		],
+		[
 			"/home/fikrat/QML-JS-Intermediate/QML/QML/testlaUI/systems.h",
 			"MU",
 			"EWIEGA46WW/moc_systems.cpp",
@@ -184,6 +190,11 @@
 	"SETTINGS_FILE" : "/home/fikrat/QML-JS-Intermediate/QML/QML/build-testlaUI-Desktop_Qt_5_15_2_GCC_64bit-Debug/CMakeFiles/testlaUI_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[
+			"/home/fikrat/QML-JS-Intermediate/QML/QML/testlaUI/batterycheck.cpp",
+			"MU",
+			null
+		],
 		[
 			"/home/fikrat/QML-JS-Intermediate/QML/QML/testlaUI/main.cpp",
 			"MU",

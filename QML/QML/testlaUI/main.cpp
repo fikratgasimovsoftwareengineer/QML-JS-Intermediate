@@ -5,7 +5,7 @@
 
 #include "temphandler.h"
 #include "volumecontroller.h"
-
+#include "batterycheck.h"
 
 int main(int argc, char *argv[])
 {
@@ -21,6 +21,8 @@ int main(int argc, char *argv[])
 
     volumeController m_volumeController;
 
+    batteryCheck checkBatter;
+
     QQmlApplicationEngine engine;
 
     // root objects handlers
@@ -32,6 +34,9 @@ int main(int argc, char *argv[])
 
     // audio controller
     engine.rootContext()->setContextProperty("volumeController", &m_volumeController);
+
+    // battery check
+    engine.rootContext()->setContextProperty("batteryCheck", &checkBatter);
 
     const QUrl url(QStringLiteral("qrc:/main.qml"));
     QObject::connect(&engine, &QQmlApplicationEngine::objectCreated,

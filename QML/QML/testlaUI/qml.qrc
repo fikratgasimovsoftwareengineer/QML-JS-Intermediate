@@ -36,5 +36,10 @@
         <file>ui/RightScreen/CompassHandle.qml</file>
         <file>ui/assets/arrow.svg</file>
         <file>ui/assets/compass.svg</file>
+        <file>ui/LeftScreen/BatteryLevelControl.qml</file>
+        <file>ui/assets/battery-empty.png</file>
+        <file>ui/assets/battery-low.png</file>
+        <file>ui/assets/battery-meta.png</file>
+        <file>ui/assets/full-battery.png</file>
     </qresource>
 </RCC>

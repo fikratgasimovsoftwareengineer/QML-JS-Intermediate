@@ -3,6 +3,8 @@ testlaUI_autogen/timestamp: \
 	/home/fikrat/QML-JS-Intermediate/QML/QML/build-testlaUI-Desktop_Qt_5_15_2_GCC_64bit-Debug/CMakeFiles/3.24.2/CMakeSystem.cmake \
 	/home/fikrat/QML-JS-Intermediate/QML/QML/build-testlaUI-Desktop_Qt_5_15_2_GCC_64bit-Debug/testlaUI_autogen/moc_predefs.h \
 	/home/fikrat/QML-JS-Intermediate/QML/QML/testlaUI/CMakeLists.txt \
+	/home/fikrat/QML-JS-Intermediate/QML/QML/testlaUI/batterycheck.cpp \
+	/home/fikrat/QML-JS-Intermediate/QML/QML/testlaUI/batterycheck.h \
 	/home/fikrat/QML-JS-Intermediate/QML/QML/testlaUI/main.cpp \
 	/home/fikrat/QML-JS-Intermediate/QML/QML/testlaUI/qml.qrc \
 	/home/fikrat/QML-JS-Intermediate/QML/QML/testlaUI/systems.cpp \

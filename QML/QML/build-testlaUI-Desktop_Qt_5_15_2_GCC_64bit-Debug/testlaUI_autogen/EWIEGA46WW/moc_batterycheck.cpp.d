@@ -1,27 +1,11 @@
-testlaUI_autogen/timestamp: \
-  CMakeFiles/3.24.2/CMakeCXXCompiler.cmake \
-  CMakeFiles/3.24.2/CMakeSystem.cmake \
-  testlaUI_autogen/moc_predefs.h \
-  /home/fikrat/QML-JS-Intermediate/QML/QML/testlaUI/CMakeLists.txt \
-  /home/fikrat/QML-JS-Intermediate/QML/QML/testlaUI/batterycheck.cpp \
-  /home/fikrat/QML-JS-Intermediate/QML/QML/testlaUI/batterycheck.h \
-  /home/fikrat/QML-JS-Intermediate/QML/QML/testlaUI/main.cpp \
-  /home/fikrat/QML-JS-Intermediate/QML/QML/testlaUI/qml.qrc \
-  /home/fikrat/QML-JS-Intermediate/QML/QML/testlaUI/systems.cpp \
-  /home/fikrat/QML-JS-Intermediate/QML/QML/testlaUI/systems.h \
-  /home/fikrat/QML-JS-Intermediate/QML/QML/testlaUI/temphandler.cpp \
-  /home/fikrat/QML-JS-Intermediate/QML/QML/testlaUI/temphandler.h \
-  /home/fikrat/QML-JS-Intermediate/QML/QML/testlaUI/volumecontroller.cpp \
-  /home/fikrat/QML-JS-Intermediate/QML/QML/testlaUI/volumecontroller.h \
-  /home/fikrat/Qt/5.15.2/gcc_64/include/QtCore/QDateTime \
+/home/fikrat/QML-JS-Intermediate/QML/QML/build-testlaUI-Desktop_Qt_5_15_2_GCC_64bit-Debug/testlaUI_autogen/EWIEGA46WW/moc_batterycheck.cpp: /home/fikrat/QML-JS-Intermediate/QML/QML/testlaUI/batterycheck.h \
+  /home/fikrat/QML-JS-Intermediate/QML/QML/build-testlaUI-Desktop_Qt_5_15_2_GCC_64bit-Debug/testlaUI_autogen/moc_predefs.h \
   /home/fikrat/Qt/5.15.2/gcc_64/include/QtCore/QObject \
-  /home/fikrat/Qt/5.15.2/gcc_64/include/QtCore/QTimer \
   /home/fikrat/Qt/5.15.2/gcc_64/include/QtCore/qalgorithms.h \
   /home/fikrat/Qt/5.15.2/gcc_64/include/QtCore/qarraydata.h \
   /home/fikrat/Qt/5.15.2/gcc_64/include/QtCore/qatomic.h \
   /home/fikrat/Qt/5.15.2/gcc_64/include/QtCore/qatomic_cxx11.h \
   /home/fikrat/Qt/5.15.2/gcc_64/include/QtCore/qbasicatomic.h \
-  /home/fikrat/Qt/5.15.2/gcc_64/include/QtCore/qbasictimer.h \
   /home/fikrat/Qt/5.15.2/gcc_64/include/QtCore/qbytearray.h \
   /home/fikrat/Qt/5.15.2/gcc_64/include/QtCore/qbytearraylist.h \
   /home/fikrat/Qt/5.15.2/gcc_64/include/QtCore/qchar.h \
@@ -29,12 +13,10 @@ testlaUI_autogen/timestamp: \
   /home/fikrat/Qt/5.15.2/gcc_64/include/QtCore/qconfig.h \
   /home/fikrat/Qt/5.15.2/gcc_64/include/QtCore/qcontainerfwd.h \
   /home/fikrat/Qt/5.15.2/gcc_64/include/QtCore/qcontainertools_impl.h \
-  /home/fikrat/Qt/5.15.2/gcc_64/include/QtCore/qdatetime.h \
   /home/fikrat/Qt/5.15.2/gcc_64/include/QtCore/qflags.h \
   /home/fikrat/Qt/5.15.2/gcc_64/include/QtCore/qgenericatomic.h \
   /home/fikrat/Qt/5.15.2/gcc_64/include/QtCore/qglobal.h \
   /home/fikrat/Qt/5.15.2/gcc_64/include/QtCore/qglobalstatic.h \
-  /home/fikrat/Qt/5.15.2/gcc_64/include/QtCore/qhash.h \
   /home/fikrat/Qt/5.15.2/gcc_64/include/QtCore/qhashfunctions.h \
   /home/fikrat/Qt/5.15.2/gcc_64/include/QtCore/qiterator.h \
   /home/fikrat/Qt/5.15.2/gcc_64/include/QtCore/qlist.h \
@@ -51,7 +33,6 @@ testlaUI_autogen/timestamp: \
   /home/fikrat/Qt/5.15.2/gcc_64/include/QtCore/qrefcount.h \
   /home/fikrat/Qt/5.15.2/gcc_64/include/QtCore/qregexp.h \
   /home/fikrat/Qt/5.15.2/gcc_64/include/QtCore/qscopedpointer.h \
-  /home/fikrat/Qt/5.15.2/gcc_64/include/QtCore/qshareddata.h \
   /home/fikrat/Qt/5.15.2/gcc_64/include/QtCore/qstring.h \
   /home/fikrat/Qt/5.15.2/gcc_64/include/QtCore/qstringalgorithms.h \
   /home/fikrat/Qt/5.15.2/gcc_64/include/QtCore/qstringlist.h \
@@ -61,97 +42,10 @@ testlaUI_autogen/timestamp: \
   /home/fikrat/Qt/5.15.2/gcc_64/include/QtCore/qsysinfo.h \
   /home/fikrat/Qt/5.15.2/gcc_64/include/QtCore/qsystemdetection.h \
   /home/fikrat/Qt/5.15.2/gcc_64/include/QtCore/qtcore-config.h \
-  /home/fikrat/Qt/5.15.2/gcc_64/include/QtCore/qtimer.h \
   /home/fikrat/Qt/5.15.2/gcc_64/include/QtCore/qtypeinfo.h \
   /home/fikrat/Qt/5.15.2/gcc_64/include/QtCore/qvarlengtharray.h \
   /home/fikrat/Qt/5.15.2/gcc_64/include/QtCore/qvector.h \
   /home/fikrat/Qt/5.15.2/gcc_64/include/QtCore/qversiontagging.h \
-  /home/fikrat/Qt/5.15.2/gcc_64/lib/cmake/Qt5/Qt5Config.cmake \
-  /home/fikrat/Qt/5.15.2/gcc_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake \
-  /home/fikrat/Qt/5.15.2/gcc_64/lib/cmake/Qt5/Qt5ModuleLocation.cmake \
-  /home/fikrat/Qt/5.15.2/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake \
-  /home/fikrat/Qt/5.15.2/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake \
-  /home/fikrat/Qt/5.15.2/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake \
-  /home/fikrat/Qt/5.15.2/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake \
-  /home/fikrat/Qt/5.15.2/gcc_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake \
-  /home/fikrat/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake \
-  /home/fikrat/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake \
-  /home/fikrat/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake \
-  /home/fikrat/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake \
-  /home/fikrat/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSEmulatorIntegrationPlugin.cmake \
-  /home/fikrat/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake \
-  /home/fikrat/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSKmsEglDeviceIntegrationPlugin.cmake \
-  /home/fikrat/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSX11IntegrationPlugin.cmake \
-  /home/fikrat/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake \
-  /home/fikrat/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake \
-  /home/fikrat/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake \
-  /home/fikrat/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevTouchScreenPlugin.cmake \
-  /home/fikrat/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake \
-  /home/fikrat/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QGtk3ThemePlugin.cmake \
-  /home/fikrat/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake \
-  /home/fikrat/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake \
-  /home/fikrat/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake \
-  /home/fikrat/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake \
-  /home/fikrat/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake \
-  /home/fikrat/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake \
-  /home/fikrat/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake \
-  /home/fikrat/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake \
-  /home/fikrat/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QSvgIconPlugin.cmake \
-  /home/fikrat/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QSvgPlugin.cmake \
-  /home/fikrat/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake \
-  /home/fikrat/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake \
-  /home/fikrat/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake \
-  /home/fikrat/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake \
-  /home/fikrat/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QVncIntegrationPlugin.cmake \
-  /home/fikrat/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWaylandEglPlatformIntegrationPlugin.cmake \
-  /home/fikrat/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWaylandIntegrationPlugin.cmake \
-  /home/fikrat/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWaylandXCompositeEglPlatformIntegrationPlugin.cmake \
-  /home/fikrat/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWaylandXCompositeGlxPlatformIntegrationPlugin.cmake \
-  /home/fikrat/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake \
-  /home/fikrat/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWebGLIntegrationPlugin.cmake \
-  /home/fikrat/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake \
-  /home/fikrat/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXcbEglIntegrationPlugin.cmake \
-  /home/fikrat/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake \
-  /home/fikrat/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake \
-  /home/fikrat/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake \
-  /home/fikrat/Qt/5.15.2/gcc_64/lib/cmake/Qt5Network/Qt5NetworkConfig.cmake \
-  /home/fikrat/Qt/5.15.2/gcc_64/lib/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake \
-  /home/fikrat/Qt/5.15.2/gcc_64/lib/cmake/Qt5Network/Qt5Network_QConnmanEnginePlugin.cmake \
-  /home/fikrat/Qt/5.15.2/gcc_64/lib/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin.cmake \
-  /home/fikrat/Qt/5.15.2/gcc_64/lib/cmake/Qt5Network/Qt5Network_QNetworkManagerEnginePlugin.cmake \
-  /home/fikrat/Qt/5.15.2/gcc_64/lib/cmake/Qt5Qml/Qt5QmlConfig.cmake \
-  /home/fikrat/Qt/5.15.2/gcc_64/lib/cmake/Qt5Qml/Qt5QmlConfigExtras.cmake \
-  /home/fikrat/Qt/5.15.2/gcc_64/lib/cmake/Qt5Qml/Qt5QmlConfigVersion.cmake \
-  /home/fikrat/Qt/5.15.2/gcc_64/lib/cmake/Qt5Qml/Qt5Qml_QDebugMessageServiceFactory.cmake \
-  /home/fikrat/Qt/5.15.2/gcc_64/lib/cmake/Qt5Qml/Qt5Qml_QLocalClientConnectionFactory.cmake \
-  /home/fikrat/Qt/5.15.2/gcc_64/lib/cmake/Qt5Qml/Qt5Qml_QQmlDebugServerFactory.cmake \
-  /home/fikrat/Qt/5.15.2/gcc_64/lib/cmake/Qt5Qml/Qt5Qml_QQmlDebuggerServiceFactory.cmake \
-  /home/fikrat/Qt/5.15.2/gcc_64/lib/cmake/Qt5Qml/Qt5Qml_QQmlInspectorServiceFactory.cmake \
-  /home/fikrat/Qt/5.15.2/gcc_64/lib/cmake/Qt5Qml/Qt5Qml_QQmlNativeDebugConnectorFactory.cmake \
-  /home/fikrat/Qt/5.15.2/gcc_64/lib/cmake/Qt5Qml/Qt5Qml_QQmlNativeDebugServiceFactory.cmake \
-  /home/fikrat/Qt/5.15.2/gcc_64/lib/cmake/Qt5Qml/Qt5Qml_QQmlPreviewServiceFactory.cmake \
-  /home/fikrat/Qt/5.15.2/gcc_64/lib/cmake/Qt5Qml/Qt5Qml_QQmlProfilerServiceFactory.cmake \
-  /home/fikrat/Qt/5.15.2/gcc_64/lib/cmake/Qt5Qml/Qt5Qml_QQuickProfilerAdapterFactory.cmake \
-  /home/fikrat/Qt/5.15.2/gcc_64/lib/cmake/Qt5Qml/Qt5Qml_QTcpServerConnectionFactory.cmake \
-  /home/fikrat/Qt/5.15.2/gcc_64/lib/cmake/Qt5QmlModels/Qt5QmlModelsConfig.cmake \
-  /home/fikrat/Qt/5.15.2/gcc_64/lib/cmake/Qt5QmlModels/Qt5QmlModelsConfigVersion.cmake \
-  /home/fikrat/Qt/5.15.2/gcc_64/lib/cmake/Qt5Quick/Qt5QuickConfig.cmake \
-  /home/fikrat/Qt/5.15.2/gcc_64/lib/cmake/Qt5Quick/Qt5QuickConfigVersion.cmake \
-  /home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/CMakeCXXInformation.cmake \
-  /home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake \
-  /home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/CMakeGenericSystem.cmake \
-  /home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake \
-  /home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake \
-  /home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/CMakeParseArguments.cmake \
-  /home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake \
-  /home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake \
-  /home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
-  /home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/Compiler/GNU-CXX.cmake \
-  /home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/Compiler/GNU.cmake \
-  /home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/Platform/Linux-GNU-CXX.cmake \
-  /home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/Platform/Linux-GNU.cmake \
-  /home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/Platform/Linux.cmake \
-  /home/fikrat/Qt/Tools/CMake/share/cmake-3.24/Modules/Platform/UnixPaths.cmake \
   /usr/include/alloca.h \
   /usr/include/assert.h \
   /usr/include/c++/9/algorithm \
@@ -356,5 +250,4 @@ testlaUI_autogen/timestamp: \
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/sys/types.h \
   /usr/lib/gcc/x86_64-linux-gnu/9/include/stdarg.h \
-  /usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h \
-  /home/fikrat/Qt/Tools/CMake/bin/cmake
+  /usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h

@@ -21,6 +21,8 @@ set(PROJECT_SOURCES
         temphandler.h
         volumecontroller.cpp
         volumecontroller.h
+        batterycheck.cpp
+        batterycheck.h
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)

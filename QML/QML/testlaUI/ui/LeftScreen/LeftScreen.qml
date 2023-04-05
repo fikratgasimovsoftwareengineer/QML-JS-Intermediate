@@ -17,4 +17,15 @@ Rectangle {
         source: "qrc:/ui/assets/tesla_2.jpg"
     }
     color: "white"
+
+    BatteryLevelControl {
+
+        id: leftBatteryId
+        anchors {
+
+            //top: leftScreen.top
+            right: leftScreen.right
+            rightMargin: 40
+        }
+    }
 }
