@@ -1,6 +1,6 @@
 import QtQuick 2.15
-import QtLocation 5.6
-import QtPositioning 5.6
+import QtLocation 5.15
+import QtPositioning 5.11
 
 Rectangle {
     id: rightScreen
@@ -26,6 +26,7 @@ Rectangle {
         // set the rotation of the arrow to the negative of the map rotation
         onRotationChanged: rightCompassId.arrowRotation = -rotation
     }
+
 
     Image {
         id: lockIcon

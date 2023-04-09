@@ -10,10 +10,11 @@ Window {
     visible: true
     title: qsTr("Tesla User Interface")
 
-    RightScreen {
-        id: rightScreen
+    RightScreen{
+        id: rightSreen
     }
-    LeftScreen {
+
+    LeftScreen{
         id: leftScreen
     }
 

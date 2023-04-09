@@ -2,13 +2,13 @@ import QtQuick 2.15
 
 Item {
 
-    Image {
+   Image {
         id: dialerIcon
         height: 40
         fillMode: Image.PreserveAspectFit
 
         anchors {
-            left: statisticalData.right
+            left: DialerUser.right
             top: parent.top
             verticalCenter: parent.verticalCenter
         }

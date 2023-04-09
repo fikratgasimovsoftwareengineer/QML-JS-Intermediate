@@ -11,6 +11,9 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Core Quick)
 find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Core Quick)
+set(QT_LOCATION /usr/lib/x86_64-linux-gnu/libQt5Location.so.5.12.8)
+set(QT_POSITING /usr/lib/x86_64-linux-gnu/libQt5Positioning.so.5.12.8)
+
 
 set(PROJECT_SOURCES
         main.cpp
@@ -47,7 +50,8 @@ else()
         )
     endif()
 endif()
-
+link_directories(QT_LOCATION)
+link_directories(QT_POSITING)
 target_link_libraries(testlaUI
   PRIVATE Qt${QT_VERSION_MAJOR}::Core Qt${QT_VERSION_MAJOR}::Quick)
 

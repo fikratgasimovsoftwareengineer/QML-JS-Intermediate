@@ -1,0 +1,9 @@
+-rootPath
+/home/fikrat/QML-JS-Intermediate/QML/QML/testlaUI
+-cmake-output
+-output-file
+/home/fikrat/QML-JS-Intermediate/QML/QML/build-testlaUI-Desktop_Qt_6_2_4_GCC_64bit-Debug/.qt_plugins/Qt6_QmlPlugins_Imports_testlaUI.cmake
+-importPath
+/home/fikrat/QML-JS-Intermediate/QML/QML/build-testlaUI-Desktop_Qt_6_2_4_GCC_64bit-Debug
+-importPath
+/home/fikrat/Qt/6.5.0/gcc_64/./qml

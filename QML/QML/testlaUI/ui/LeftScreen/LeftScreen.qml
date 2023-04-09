@@ -1,12 +1,13 @@
 import QtQuick 2.15
 
+
 Rectangle {
 
     id: leftScreen
     anchors {
         top: parent.top
         left: parent.left
-        right: rightScreen.left
+        right: rightSreen.left
         bottom: bottomBar.top
     }
     Image {
@@ -18,12 +19,10 @@ Rectangle {
     }
     color: "white"
 
-    BatteryLevelControl {
+   BatteryLevelControl {
 
         id: leftBatteryId
         anchors {
-
-            //top: leftScreen.top
             right: leftScreen.right
             rightMargin: 40
         }

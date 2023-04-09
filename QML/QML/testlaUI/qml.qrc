@@ -41,5 +41,6 @@
         <file>ui/assets/battery-low.png</file>
         <file>ui/assets/battery-meta.png</file>
         <file>ui/assets/full-battery.png</file>
+        <file>ui/assets/oslo.jpeg</file>
     </qresource>
 </RCC>
