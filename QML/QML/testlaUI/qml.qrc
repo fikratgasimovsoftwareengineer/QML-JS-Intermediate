@@ -42,5 +42,6 @@
         <file>ui/assets/battery-meta.png</file>
         <file>ui/assets/full-battery.png</file>
         <file>ui/assets/oslo.jpeg</file>
+        <file>ui/BottomBar/DialerCall.qml</file>
     </qresource>
 </RCC>
