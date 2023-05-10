@@ -5,4 +5,5 @@
 /home/fikrat/QML-JS-Intermediate/QML/QML/build-testlaUI-Clone_of_Desktop_Qt_GCC_64bit-Debug/CMakeFiles/install.dir
 /home/fikrat/QML-JS-Intermediate/QML/QML/build-testlaUI-Clone_of_Desktop_Qt_GCC_64bit-Debug/CMakeFiles/install/local.dir
 /home/fikrat/QML-JS-Intermediate/QML/QML/build-testlaUI-Clone_of_Desktop_Qt_GCC_64bit-Debug/CMakeFiles/install/strip.dir
+/home/fikrat/QML-JS-Intermediate/QML/QML/build-testlaUI-Clone_of_Desktop_Qt_GCC_64bit-Debug/CMakeFiles/testlaUI_autogen_timestamp_deps.dir
 /home/fikrat/QML-JS-Intermediate/QML/QML/build-testlaUI-Clone_of_Desktop_Qt_GCC_64bit-Debug/CMakeFiles/testlaUI_autogen.dir

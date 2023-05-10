@@ -17,10 +17,6 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 0,
-			"id" : "testlaUI_qmlimportscan::@6890427a1f51a3e7e1df"
-		},
-		{
 			"id" : "testlaUI_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		}
 	],
@@ -55,19 +51,19 @@
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "/home/fikrat/QML-JS-Intermediate/QML/QML/build-testlaUI-Desktop_Qt_6_2_4_GCC_64bit-Debug/CMakeFiles/testlaUI_autogen",
+			"path" : "/home/fikrat/QML-JS-Intermediate/QML/QML/build-testlaUI-Clone_of_Desktop_Qt_GCC_64bit-Debug/CMakeFiles/testlaUI_autogen",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "/home/fikrat/QML-JS-Intermediate/QML/QML/build-testlaUI-Desktop_Qt_6_2_4_GCC_64bit-Debug/CMakeFiles/testlaUI_autogen.rule",
+			"path" : "/home/fikrat/QML-JS-Intermediate/QML/QML/build-testlaUI-Clone_of_Desktop_Qt_GCC_64bit-Debug/CMakeFiles/testlaUI_autogen.rule",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "/home/fikrat/QML-JS-Intermediate/QML/QML/build-testlaUI-Desktop_Qt_6_2_4_GCC_64bit-Debug/testlaUI_autogen/timestamp.rule",
+			"path" : "/home/fikrat/QML-JS-Intermediate/QML/QML/build-testlaUI-Clone_of_Desktop_Qt_GCC_64bit-Debug/testlaUI_autogen/timestamp.rule",
 			"sourceGroupIndex" : 1
 		}
 	],

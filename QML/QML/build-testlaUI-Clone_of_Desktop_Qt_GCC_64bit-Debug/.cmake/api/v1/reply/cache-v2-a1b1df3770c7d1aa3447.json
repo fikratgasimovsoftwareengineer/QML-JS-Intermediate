@@ -695,7 +695,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : ""
+			"value" : "/home/fikrat/Qt/5.15.2/gcc_64"
 		},
 		{
 			"name" : "CMAKE_PROJECT_DESCRIPTION",
@@ -1107,7 +1107,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "/usr/lib/x86_64-linux-gnu/cmake/Qt5"
+			"value" : "/home/fikrat/Qt/5.15.2/gcc_64/lib/cmake/Qt5"
 		},
 		{
 			"name" : "QT_QMAKE_EXECUTABLE",
@@ -1119,7 +1119,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : ""
+			"value" : "/home/fikrat/Qt/5.15.2/gcc_64/bin/qmake"
 		},
 		{
 			"name" : "Qt5Core_DIR",
@@ -1131,7 +1131,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "/usr/lib/x86_64-linux-gnu/cmake/Qt5Core"
+			"value" : "/home/fikrat/Qt/5.15.2/gcc_64/lib/cmake/Qt5Core"
 		},
 		{
 			"name" : "Qt5Gui_DIR",
@@ -1143,7 +1143,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "/usr/lib/x86_64-linux-gnu/cmake/Qt5Gui"
+			"value" : "/home/fikrat/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui"
 		},
 		{
 			"name" : "Qt5Network_DIR",
@@ -1155,7 +1155,19 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "/usr/lib/x86_64-linux-gnu/cmake/Qt5Network"
+			"value" : "/home/fikrat/Qt/5.15.2/gcc_64/lib/cmake/Qt5Network"
+		},
+		{
+			"name" : "Qt5QmlModels_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for Qt5QmlModels."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/home/fikrat/Qt/5.15.2/gcc_64/lib/cmake/Qt5QmlModels"
 		},
 		{
 			"name" : "Qt5Qml_DIR",
@@ -1167,7 +1179,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "/usr/lib/x86_64-linux-gnu/cmake/Qt5Qml"
+			"value" : "/home/fikrat/Qt/5.15.2/gcc_64/lib/cmake/Qt5Qml"
 		},
 		{
 			"name" : "Qt5Quick_DIR",
@@ -1179,7 +1191,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "/usr/lib/x86_64-linux-gnu/cmake/Qt5Quick"
+			"value" : "/home/fikrat/Qt/5.15.2/gcc_64/lib/cmake/Qt5Quick"
 		},
 		{
 			"name" : "Qt5_DIR",
@@ -1191,7 +1203,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "/usr/lib/x86_64-linux-gnu/cmake/Qt5"
+			"value" : "/home/fikrat/Qt/5.15.2/gcc_64/lib/cmake/Qt5"
 		},
 		{
 			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",

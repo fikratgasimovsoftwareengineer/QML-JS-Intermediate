@@ -17,7 +17,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -33,7 +34,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -42,15 +44,22 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "testlaUI::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-testlaUI-Debug-0bd32696304ca8eac103.json",
+					"jsonFile" : "target-testlaUI-Debug-7b8a5dc4f2ebc69a4a6e.json",
 					"name" : "testlaUI",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "testlaUI_autogen::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-testlaUI_autogen-Debug-d0fba3fc9f9484ae557c.json",
+					"jsonFile" : "target-testlaUI_autogen-Debug-6a05984a5d63c6938434.json",
 					"name" : "testlaUI_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "testlaUI_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-testlaUI_autogen_timestamp_deps-Debug-55fd4a26ade6818b91ff.json",
+					"name" : "testlaUI_autogen_timestamp_deps",
 					"projectIndex" : 0
 				}
 			]
