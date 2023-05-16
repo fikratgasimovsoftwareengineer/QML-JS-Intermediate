@@ -42,10 +42,6 @@ Item {
              top:parent.top * .40
              bottom: cameraId.top
 
-             //horizontalCenter: parent.horizontalCenter
-             //left:leftScreen.right
-             //leftMargin: 5
-
          }
 
         Column{
@@ -60,6 +56,7 @@ Item {
 
 
             Text{
+                id:phoneDialerName
                 text:"Phone Dialer"
                 font.bold: true
                 font.pixelSize: 16
@@ -71,10 +68,89 @@ Item {
                     topMargin: 1
 
             }
+                TextField{
+                    id:numberInput
+
+                    width: dialer.width - 13
+                    height: phoneDialerName.height + 7
+
+                    anchors{
+                        horizontalCenter: parent.horizontalCenter
+                        centerIn: parent.Center
+                        top: columnID.bottom
+                        verticalCenter: parent.verticalCenter
+
+                    }
+                    placeholderText: qsTr("Enter Number")
+                    font.bold: true
+
+                    color:"black"
+                    readOnly: True
+                    background: Rectangle{
+                        radius:5
+
+                        border.width: 2
+                        border.color: "#387080"
+                    }
+                   // Check if entered value is string or number
+                    // in case of string , throw notification
+                    function showDiaglog(){
+                        dialogText.open()
+                    }
+                    onTextChanged: {
+                        // get entered number and trim it
+                        var valueControl = numberInput.text.trim()
+
+                        if (!isNaN(parseInt(valueControl)) && isFinite(valueControl)){
+                            console.log('It is number');
+                        }
+                        else{
+
+                             showDiaglog();
+
+                        }
+
+                    }
+
+                } // finish textField
 
 
-         }
+                // Popup Window
+             Dialog{
+                  id:dialogText
+                  title:"String Value"
+                  //A modal dialog blocks input to other content beneath the dialog.
+                  modal:true
 
+                  contentItem: Text{
+
+                      text : "String Value entered"
+                  }
+                  standardButtons: Dialog.Ok | Dialog.Cancel
+                  onAccepted: console.log("Ok clicked")
+                  onRejected: console.log("Cancel clicked")
+              }
+
+            /* Button{
+                 text:"Ok"
+                 ColorAnimation: "green"
+                 onClicked: {
+                     dialogText.accept()
+                 }
+             }
+
+             Button{
+                 text:"Cancel"
+                 ColorAnimation: "red"
+                 onClicked: {
+                     dialogText.reject()
+                 }
+             }*/
+
+
+
+
+         } // finish rectangle
 
 
          GridLayout {
@@ -89,16 +165,19 @@ Item {
                  left: parent.left
                  leftMargin: 3
              }
-             rowSpacing: 3
 
 
              width: dialer.width
              height: dialer.height
 
+
+
              Button {
                  text: "1"
                  onClicked: {
                      // Add 1 to the dialer input
+                     // add this number to textField
+                     numberInput.text +="1"
 
                  }
              }
@@ -107,6 +186,7 @@ Item {
                  text: "2"
                  onClicked: {
                      // Add 2 to the dialer input
+                     numberInput.text +="2"
 
                  }
              }
@@ -115,6 +195,7 @@ Item {
                  text: "3"
                  onClicked: {
                      // Add 3 to the dialer input
+                     numberInput.text +="3"
 
                  }
              }
@@ -123,15 +204,18 @@ Item {
                  text: "4"
                  onClicked: {
                      // Add 4 to the dialer input
+                     numberInput.text +="4"
 
                  }
+
+
              }
 
              Button {
                  text: "5"
                  onClicked: {
                      // Add 5 to the dialer input
-
+                     numberInput.text += "5"
                  }
              }
 
@@ -139,7 +223,7 @@ Item {
                  text: "6"
                  onClicked: {
                      // Add 6 to the dialer input
-
+                     numberInput.text +="6"
                  }
              }
 
@@ -147,7 +231,7 @@ Item {
                  text: "7"
                  onClicked: {
                      // Add 7 to the dialer input
-
+                      numberInput.text +="7"
                  }
              }
 
@@ -155,7 +239,7 @@ Item {
                  text: "8"
                  onClicked: {
                      // Add 8 to the dialer input
-
+                      numberInput.text +="8"
                  }
              }
 
@@ -163,7 +247,7 @@ Item {
                  text: "9"
                  onClicked: {
                      // Add 9 to the dialer input
-
+                        numberInput.text +="9"
                  }
              }
 
@@ -171,15 +255,16 @@ Item {
                  text: "*"
                  onClicked: {
                      // Add * to the dialer input
-
+                        numberInput.text +="*"
                  }
              }
 
              Button {
+                 id:zeroNum
                  text: "0"
                  onClicked: {
                      // Add 0 to the dialer input
-
+                      numberInput.text +="0"
                  }
              }
 
@@ -187,24 +272,32 @@ Item {
                  text: "#"
                  onClicked: {
                      // Add # to the dialer input
-
+                          numberInput.text +="#"
                  }
              }
 
+
              Button {
                  id: callId
+
                  text: "Call"
                  font.pixelSize: 20
+
                  // set width
                  Layout.preferredWidth: buttonsGrid.width / 4
+
                  onClicked: {
                      // Call the entered phone number
+                     var phoneNumber = numberInput.text
+
 
                  }
+
                  background: Rectangle{
-                     color:"green"
-                     radius:5
+                     color: "green"
+                     radius: 5
                  }
+
              }
 
              Button {
@@ -223,6 +316,7 @@ Item {
                      color:"red"
                      radius:5
                  }
+
 
              }
          }// gridlayout
