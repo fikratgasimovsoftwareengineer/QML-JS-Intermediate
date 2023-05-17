@@ -1,5 +1,6 @@
 import QtQuick 2.15
-
+import QtQuick.Controls 2.14
+import QtQuick.Window 2.14 // navigation page
 
 Rectangle {
 
@@ -10,6 +11,8 @@ Rectangle {
         right: rightSreen.left
         bottom: bottomBar.top
     }
+
+
     Image {
         id: carTesla
         anchors.centerIn: parent
@@ -29,4 +32,17 @@ Rectangle {
     }
 
 
+    SpeedMeterButton{
+        id:leftButtonSpeed
+        anchors{
+            top: leftBatteryId.bottom
+            left: leftScreen.left
+            rightMargin: 250
+
+        }
+
+    }
 }
+
+
+

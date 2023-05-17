@@ -43,5 +43,8 @@
         <file>ui/assets/full-battery.png</file>
         <file>ui/assets/oslo.jpeg</file>
         <file>ui/BottomBar/DialerCall.qml</file>
+        <file>ui/SpeedMeter/SpeedMeter.qml</file>
+        <file>ui/assets/meter.png</file>
+        <file>ui/LeftScreen/SpeedMeterButton.qml</file>
     </qresource>
 </RCC>
