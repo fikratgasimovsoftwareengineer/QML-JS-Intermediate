@@ -100,10 +100,12 @@ Item {
                     onTextChanged: {
                         // get entered number and trim it
                         var valueControl = numberInput.text.trim()
-
-                        if (!isNaN(parseInt(valueControl)) && isFinite(valueControl)){
-                            console.log('It is number');
+                        // check if it is valid number or string
+                        if (!isNaN(parseInt(valueControl)) && isFinite(valueControl) || valueControl === "+" || (numberInput.text.length===0)){
+                            console.log('It is Valid Phone');
                         }
+
+
                         else{
 
                              showDiaglog();
@@ -118,7 +120,7 @@ Item {
                 // Popup Window
              Dialog{
                   id:dialogText
-                  title:"String Value"
+
                   //A modal dialog blocks input to other content beneath the dialog.
                   modal:true
 
@@ -126,26 +128,13 @@ Item {
 
                       text : "String Value entered"
                   }
+                  background: Rectangle{
+
+                    color: "lightblue"
+                  }
                   standardButtons: Dialog.Ok | Dialog.Cancel
-                  onAccepted: console.log("Ok clicked")
-                  onRejected: console.log("Cancel clicked")
+
               }
-
-            /* Button{
-                 text:"Ok"
-                 ColorAnimation: "green"
-                 onClicked: {
-                     dialogText.accept()
-                 }
-             }
-
-             Button{
-                 text:"Cancel"
-                 ColorAnimation: "red"
-                 onClicked: {
-                     dialogText.reject()
-                 }
-             }*/
 
 
 
@@ -277,6 +266,7 @@ Item {
              }
 
 
+
              Button {
                  id: callId
 
@@ -289,13 +279,19 @@ Item {
                  onClicked: {
                      // Call the entered phone number
                      var phoneNumber = numberInput.text
-
-
+                     showDialog(phoneNumber)
                  }
 
                  background: Rectangle{
                      color: "green"
                      radius: 5
+                 }
+
+                 // call button functionality for PopUp
+                 function showDialog(phoneNumber){
+
+                     dialogText.contentItem.text = "Are you sure , you want to call this number: " + phoneNumber
+                     dialogText.open()
                  }
 
              }
