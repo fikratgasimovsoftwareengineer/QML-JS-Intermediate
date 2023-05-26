@@ -181,7 +181,7 @@
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
-	"PARALLEL" : 6,
+	"PARALLEL" : 4,
 	"PARSE_CACHE_FILE" : "/home/fikrat/QML-JS-Intermediate/QML/QML/build-testlaUI-Desktop_Qt_5_15_2_GCC_64bit-Debug/CMakeFiles/testlaUI_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/home/fikrat/Qt/5.15.2/gcc_64/bin/moc",
 	"QT_UIC_EXECUTABLE" : "",

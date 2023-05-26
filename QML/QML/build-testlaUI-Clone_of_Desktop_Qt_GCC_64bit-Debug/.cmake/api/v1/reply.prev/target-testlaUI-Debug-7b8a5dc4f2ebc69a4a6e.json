@@ -13,7 +13,7 @@
 			"add_executable",
 			"install",
 			"target_link_libraries",
-			"set_target_properties",
+			"set_property",
 			"_populate_Quick_target_properties",
 			"find_package",
 			"_populate_Qml_target_properties"
@@ -21,9 +21,10 @@
 		"files" : 
 		[
 			"CMakeLists.txt",
-			"/usr/lib/x86_64-linux-gnu/cmake/Qt5Quick/Qt5QuickConfig.cmake",
-			"/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5Config.cmake",
-			"/usr/lib/x86_64-linux-gnu/cmake/Qt5Qml/Qt5QmlConfig.cmake"
+			"/home/fikrat/Qt/5.15.2/gcc_64/lib/cmake/Qt5Quick/Qt5QuickConfig.cmake",
+			"/home/fikrat/Qt/5.15.2/gcc_64/lib/cmake/Qt5/Qt5Config.cmake",
+			"/home/fikrat/Qt/5.15.2/gcc_64/lib/cmake/Qt5Qml/Qt5QmlConfig.cmake",
+			"/home/fikrat/Qt/5.15.2/gcc_64/lib/cmake/Qt5QmlModels/Qt5QmlModelsConfig.cmake"
 		],
 		"nodes" : 
 		[
@@ -71,36 +72,46 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 162,
+				"line" : 201,
 				"parent" : 7
 			},
 			{
 				"command" : 3,
 				"file" : 1,
-				"line" : 44,
+				"line" : 45,
 				"parent" : 8
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 101,
+				"line" : 99,
 				"parent" : 7
 			},
 			{
-				"file" : 3,
+				"file" : 4,
 				"parent" : 10
+			},
+			{
+				"command" : 5,
+				"file" : 4,
+				"line" : 99,
+				"parent" : 11
+			},
+			{
+				"file" : 3,
+				"parent" : 12
 			},
 			{
 				"command" : 6,
 				"file" : 3,
-				"line" : 162,
-				"parent" : 11
+				"line" : 201,
+				"parent" : 13
 			},
 			{
 				"command" : 3,
 				"file" : 3,
-				"line" : 44,
-				"parent" : 12
+				"line" : 45,
+				"parent" : 14
 			}
 		]
 	},
@@ -136,6 +147,10 @@
 				},
 				{
 					"backtrace" : 3,
+					"define" : "QT_QMLMODELS_LIB"
+				},
+				{
+					"backtrace" : 3,
 					"define" : "QT_QML_LIB"
 				},
 				{
@@ -152,37 +167,42 @@
 				{
 					"backtrace" : 3,
 					"isSystem" : true,
-					"path" : "/usr/include/x86_64-linux-gnu/qt5"
+					"path" : "/home/fikrat/Qt/5.15.2/gcc_64/include"
 				},
 				{
 					"backtrace" : 3,
 					"isSystem" : true,
-					"path" : "/usr/include/x86_64-linux-gnu/qt5/QtCore"
+					"path" : "/home/fikrat/Qt/5.15.2/gcc_64/include/QtCore"
 				},
 				{
 					"backtrace" : 3,
 					"isSystem" : true,
-					"path" : "/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"
+					"path" : "/home/fikrat/Qt/5.15.2/gcc_64/./mkspecs/linux-g++"
 				},
 				{
 					"backtrace" : 3,
 					"isSystem" : true,
-					"path" : "/usr/include/x86_64-linux-gnu/qt5/QtQuick"
+					"path" : "/home/fikrat/Qt/5.15.2/gcc_64/include/QtQuick"
 				},
 				{
 					"backtrace" : 3,
 					"isSystem" : true,
-					"path" : "/usr/include/x86_64-linux-gnu/qt5/QtQml"
+					"path" : "/home/fikrat/Qt/5.15.2/gcc_64/include/QtQmlModels"
 				},
 				{
 					"backtrace" : 3,
 					"isSystem" : true,
-					"path" : "/usr/include/x86_64-linux-gnu/qt5/QtNetwork"
+					"path" : "/home/fikrat/Qt/5.15.2/gcc_64/include/QtQml"
 				},
 				{
 					"backtrace" : 3,
 					"isSystem" : true,
-					"path" : "/usr/include/x86_64-linux-gnu/qt5/QtGui"
+					"path" : "/home/fikrat/Qt/5.15.2/gcc_64/include/QtNetwork"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/fikrat/Qt/5.15.2/gcc_64/include/QtGui"
 				}
 			],
 			"language" : "CXX",
@@ -202,12 +222,15 @@
 				5,
 				7,
 				9,
-				11
+				12
 			]
 		}
 	],
 	"dependencies" : 
 	[
+		{
+			"id" : "testlaUI_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
+		},
 		{
 			"backtrace" : 0,
 			"id" : "testlaUI_autogen::@6890427a1f51a3e7e1df"
@@ -241,28 +264,37 @@
 				"role" : "flags"
 			},
 			{
-				"backtrace" : 3,
-				"fragment" : "/usr/lib/x86_64-linux-gnu/libQt5Quick.so.5.12.8",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 9,
-				"fragment" : "/usr/lib/x86_64-linux-gnu/libQt5Qml.so.5.12.8",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 13,
-				"fragment" : "/usr/lib/x86_64-linux-gnu/libQt5Network.so.5.12.8",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 9,
-				"fragment" : "/usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.12.8",
+				"fragment" : "-Wl,-rpath,/home/fikrat/Qt/5.15.2/gcc_64/lib:",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "/usr/lib/x86_64-linux-gnu/libQt5Core.so.5.12.8",
+				"fragment" : "/home/fikrat/Qt/5.15.2/gcc_64/lib/libQt5Quick.so.5.15.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/home/fikrat/Qt/5.15.2/gcc_64/lib/libQt5QmlModels.so.5.15.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/home/fikrat/Qt/5.15.2/gcc_64/lib/libQt5Qml.so.5.15.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "/home/fikrat/Qt/5.15.2/gcc_64/lib/libQt5Network.so.5.15.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/home/fikrat/Qt/5.15.2/gcc_64/lib/libQt5Gui.so.5.15.2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/fikrat/Qt/5.15.2/gcc_64/lib/libQt5Core.so.5.15.2",
 				"role" : "libraries"
 			}
 		],
@@ -287,14 +319,15 @@
 				5,
 				7,
 				9,
-				11
+				12
 			]
 		},
 		{
 			"name" : "",
 			"sourceIndexes" : 
 			[
-				2
+				2,
+				11
 			]
 		},
 		{
@@ -311,7 +344,8 @@
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				12
+				13,
+				14
 			]
 		}
 	],
@@ -381,10 +415,22 @@
 		},
 		{
 			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/fikrat/QML-JS-Intermediate/QML/QML/build-testlaUI-Clone_of_Desktop_Qt_GCC_64bit-Debug/testlaUI_autogen/timestamp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
 			"path" : "/home/fikrat/QML-JS-Intermediate/QML/QML/build-testlaUI-Clone_of_Desktop_Qt_GCC_64bit-Debug/testlaUI_autogen/EWIEGA46WW/qrc_qml.cpp",
 			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/fikrat/QML-JS-Intermediate/QML/QML/build-testlaUI-Clone_of_Desktop_Qt_GCC_64bit-Debug/testlaUI_autogen/timestamp.rule",
+			"sourceGroupIndex" : 3
 		},
 		{
 			"backtrace" : 0,

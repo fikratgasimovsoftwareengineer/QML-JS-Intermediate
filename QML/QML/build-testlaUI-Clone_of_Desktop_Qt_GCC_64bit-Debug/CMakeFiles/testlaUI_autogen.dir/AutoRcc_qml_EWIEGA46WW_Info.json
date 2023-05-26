@@ -10,6 +10,7 @@
 		"/home/fikrat/QML-JS-Intermediate/QML/QML/testlaUI/main.qml",
 		"/home/fikrat/QML-JS-Intermediate/QML/QML/testlaUI/ui/LeftScreen/BatteryLevelControl.qml",
 		"/home/fikrat/QML-JS-Intermediate/QML/QML/testlaUI/ui/LeftScreen/LeftScreen.qml",
+		"/home/fikrat/QML-JS-Intermediate/QML/QML/testlaUI/ui/LeftScreen/SpeedMeterButton.qml",
 		"/home/fikrat/QML-JS-Intermediate/QML/QML/testlaUI/ui/BottomBar/DialerUser.qml",
 		"/home/fikrat/QML-JS-Intermediate/QML/QML/testlaUI/ui/BottomBar/DialerCall.qml",
 		"/home/fikrat/QML-JS-Intermediate/QML/QML/testlaUI/ui/BottomBar/VolumQmlController.qml",
@@ -23,6 +24,7 @@
 		"/home/fikrat/QML-JS-Intermediate/QML/QML/testlaUI/ui/assets/volume-up-interface-symbol.png",
 		"/home/fikrat/QML-JS-Intermediate/QML/QML/testlaUI/ui/assets/phone-call.png",
 		"/home/fikrat/QML-JS-Intermediate/QML/QML/testlaUI/ui/assets/open-padlock-silhouette.png",
+		"/home/fikrat/QML-JS-Intermediate/QML/QML/testlaUI/ui/assets/meter.png",
 		"/home/fikrat/QML-JS-Intermediate/QML/QML/testlaUI/ui/assets/car_2.png",
 		"/home/fikrat/QML-JS-Intermediate/QML/QML/testlaUI/ui/assets/vol.png",
 		"/home/fikrat/QML-JS-Intermediate/QML/QML/testlaUI/ui/assets/padlock-unlock.png",
@@ -49,7 +51,8 @@
 		"/home/fikrat/QML-JS-Intermediate/QML/QML/testlaUI/ui/assets/phone-call_grande.png",
 		"/home/fikrat/QML-JS-Intermediate/QML/QML/testlaUI/ui/RightScreen/RightScreen.qml",
 		"/home/fikrat/QML-JS-Intermediate/QML/QML/testlaUI/ui/RightScreen/NavigationSearchBox.qml",
-		"/home/fikrat/QML-JS-Intermediate/QML/QML/testlaUI/ui/RightScreen/CompassHandle.qml"
+		"/home/fikrat/QML-JS-Intermediate/QML/QML/testlaUI/ui/RightScreen/CompassHandle.qml",
+		"/home/fikrat/QML-JS-Intermediate/QML/QML/testlaUI/ui/SpeedMeter/SpeedMeter.qml"
 	],
 	"LOCK_FILE" : "/home/fikrat/QML-JS-Intermediate/QML/QML/build-testlaUI-Clone_of_Desktop_Qt_GCC_64bit-Debug/CMakeFiles/testlaUI_autogen.dir/AutoRcc_qml_EWIEGA46WW_Lock.lock",
 	"MULTI_CONFIG" : false,
